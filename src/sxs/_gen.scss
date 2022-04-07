@@ -12,6 +12,16 @@
     }
 }
 
-.izq{
-    background-color: getColorsBase('primary', 3);
+
+@mixin txtst{
+    .txtmed{
+        height: 18%;
+        font-size: 30px;
+        margin: 8px;
+    }
+
+    .txt{
+        margin: 12px;
+        font-size: 18px;
+    }
 }
