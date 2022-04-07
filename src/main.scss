@@ -2,8 +2,10 @@
 @import "sxs/funciones";
 @import "sxs/gen";
 
+@import "config/info";
 @import "config/galeria";
 @import "config/footer";
+@import "config/form";
 
 
 :root{
@@ -69,101 +71,6 @@ body{
     }
 }
 
-#info1{
-    grid-area: info1;
-    background-color: lightgray;
-    @include setflex(column);
-    align-items: center;
-    padding: 8rem;
-    justify-content: space-evenly;
-
-    .txtmed{
-        height: 18%;
-        font-size: 30px;
-        margin: 8px;
-    }
-
-    .txt{
-        margin: 12px;
-        font-size: 18px;
-    }
-
-}
-
-#info2{
-    grid-area: info2;
-    background-color: lightgray;
-    text-align: center;
-
-    @include setflex(column);
-    padding: 8rem;
-    align-items: center;
-    justify-content: space-evenly;
-
-    .txtmed{
-        height: 18%;
-        font-size: 30px;
-        margin: 8px;
-    }
-
-    .txt{
-        margin: 12px;
-        font-size: 18px;
-    }
-
-}
-
-#info3{    
-    grid-area: info3;
-    background-color: lightblue;
-    text-align: center;
-    padding: 8rem;
-
-    @include setflex(column);
-    align-items: center;
-    justify-content: space-evenly;
-
-    .txtmed{
-        height: 18%;
-        font-size: 50px;
-        margin: 8px;
-    }
-
-    .txt{
-        margin: 12px;
-        font-size: 18px;
-    }
-
-
-}
-
-#form{
-    grid-area: form;
-    background-color: rgb(120, 104, 134);
-    @include setflex(column);
-    padding: 1rem;
-    align-content: center;
-
-    .ctrform{
-        @include setflex(row, space-evenly);
-        padding: 0.5rem 0.8rem;
-        width: 85%;
-
-        input{
-            padding: 0.5rem;
-            text-align: left;
-            box-sizing: border-box;
-            width: 50%;
-        }
-    }
-
-    textarea{
-        padding: 0.5rem;
-        text-align: left;
-        width: 90%;
-        margin: auto;
-    }
-}
 
 @media all and (max-width:100%){
 

@@ -1,0 +1,67 @@
+#info1{
+    grid-area: info1;
+    background-color: lightgray;
+    @include setflex(column);
+    align-items: center;
+    padding: 8rem;
+    justify-content: space-evenly;
+
+    .txtmed{
+        height: 18%;
+        font-size: 30px;
+        margin: 8px;
+    }
+
+    .txt{
+        margin: 12px;
+        font-size: 18px;
+    }
+
+}
+
+#info2{
+    grid-area: info2;
+    background-color: lightgray;
+    text-align: center;
+
+    @include setflex(column);
+    padding: 8rem;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .txtmed{
+        height: 18%;
+        font-size: 30px;
+        margin: 8px;
+    }
+
+    .txt{
+        margin: 12px;
+        font-size: 18px;
+    }
+
+}
+
+#info3{    
+    grid-area: info3;
+    background-color: lightblue;
+    text-align: center;
+    padding: 8rem;
+
+    @include setflex(column);
+    align-items: center;
+    justify-content: space-evenly;
+
+    .txtmed{
+        height: 18%;
+        font-size: 50px;
+        margin: 8px;
+    }
+
+    .txt{
+        margin: 12px;
+        font-size: 18px;
+    }
+
+
+}

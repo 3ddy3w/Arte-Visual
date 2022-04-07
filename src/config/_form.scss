@@ -1,0 +1,27 @@
+#form{
+    grid-area: form;
+    background-color: rgb(120, 104, 134);
+    @include setflex(column);
+    padding: 1rem;
+    align-content: center;
+
+    .ctrform{
+        @include setflex(row, space-evenly);
+        padding: 0.5rem 0.8rem;
+        width: 85%;
+
+        input{
+            padding: 0.5rem;
+            text-align: left;
+            box-sizing: border-box;
+            width: 50%;
+        }
+    }
+
+    textarea{
+        padding: 0.5rem;
+        text-align: left;
+        width: 90%;
+        margin: auto;
+    }
+}
